@@ -1,22 +1,18 @@
 package main
 
-
 import "fmt"
 
-
 type dog struct {
-	name string
+	name  string
 	breed string
-	age int
-
 }
 
-func main(){
-	pet :=dog{
-		name: "Maximus",
+func main() {
+	pet := dog{
+		name:  "Maximus",
 		breed: "Rottweiler",
-		age: 5,
+		age:   5,
 	}
 
-	fmt.Printf("%+v",pet)
+	fmt.Printf("%+v", pet)
 }
